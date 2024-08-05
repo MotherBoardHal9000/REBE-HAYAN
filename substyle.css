@@ -1,0 +1,346 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  text-decoration: none;
+  margin: 0px;
+
+  scroll-behavior: smooth;
+}
+
+.hide {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  border: 0;
+  width: 1px;
+  height: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.img1 {
+  width: 400px;
+  height: fit-content;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+}
+
+.black-bg {
+  min-width: 2560px;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: rgb(39, 39, 39);
+  opacity: 0.5;
+  display: none;
+  position: fixed;
+  position: absolute;
+  z-index: 5;
+}
+
+.visual {
+  min-width: 2560px;
+  max-width: 100%;
+  min-height: 112px;
+  position: relative;
+  box-shadow: 0px 2px 0px 0px rgb(224, 224, 224);
+}
+
+header {
+  position: absolute;
+  left: 50%;
+  min-width: 1200px;
+  max-width: 100%;
+  height: 112px;
+
+  transform: translateX(-50%);
+  color: black;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+}
+
+header h1 {
+  float: left;
+}
+
+header .gnb {
+  display: flex;
+  justify-content: center;
+}
+
+.gnb-ul {
+  display: flex;
+  text-align: center;
+  gap: 50px;
+  position: absolute;
+  top: 45px;
+  font-weight: bolder;
+  list-style: none;
+}
+
+header .util {
+  list-style: none;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+header .menu {
+  float: right;
+}
+
+header .allMenu {
+  position: absolute;
+  right: 0;
+  top: 45px;
+}
+
+.search {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+
+.btn1 {
+  color: black;
+  width: fit-content;
+  background: transparent;
+  border: none;
+}
+
+.allMenu {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  gap: 30px;
+}
+
+/*sectionII*/
+.sectionII {
+  min-width: 2560px;
+  max-width: 100%;
+  min-height: 171px;
+  position: relative;
+}
+
+.sectionIIContents {
+  min-width: 1200px;
+  min-height: 170px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sectionIIContents nav {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  padding: 20px 0 0 0;
+}
+
+.sectionIIContents h2 {
+  font-size: 35px;
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logINli {
+  width: 430px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logINli button {
+  background-color: white;
+  border: none;
+  font-size: larger;
+  width: 50%;
+  height: 100%;
+}
+
+.logINli button:hover {
+  font-weight: bolder;
+  box-shadow: 0 16px 0 0 black;
+}
+
+/*sectionIII*/
+.sectionIII {
+  min-width: 2560px;
+  max-width: 100%;
+  min-height: 500px;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+#계좌고객창 {
+  width: 640px;
+  height: 416px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  padding: 50px;
+  box-sizing: border-box;
+  transform: translateX(-50%);
+  display: block;
+}
+
+.IDPW {
+  width: 540px;
+  height: 40px;
+  margin: 0 0 20px 0px;
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 3px;
+}
+
+.sectionIIIConntents button {
+  width: 540px;
+  height: 40px;
+  display: block;
+  background-color: grey;
+  margin: 40px 0 0 0;
+  color: white;
+  border: none;
+}
+
+.accountGuide {
+  display: block;
+  list-style: none;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*sectionIV*/
+.sectionIV {
+  min-width: 2560px;
+  max-width: 100%;
+  min-height: 320px;
+  background-color: white;
+  position: relative;
+}
+
+.sectionIV h3 {
+  margin: 15px;
+  box-sizing: border-box;
+}
+
+.sectionIVcontents {
+  min-width: 1200px;
+  min-height: 320px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Line {
+  width: 100%;
+  height: 2px;
+  background-color: #eaeaea;
+}
+
+/*sectionVIII*/
+.sectionVIII {
+  min-width: 2560px;
+  max-width: 100%;
+  height: 72px;
+  background-color: #0a1f55;
+  color: rgb(0, 162, 255);
+  position: relative;
+}
+.sectionVIII h2 {
+  box-sizing: border-box;
+  padding: 18px;
+  text-align: center;
+}
+/*footer*/
+.footer {
+  min-width: 2560px;
+  max-width: 100%;
+  min-height: 284px;
+  position: relative;
+}
+
+.footer-box1 {
+  width: 1200px;
+  height: 72px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footerContent {
+  width: 100%;
+  height: 72px;
+  background-color: #f4f4f4;
+}
+
+.afterAll {
+  width: 1200px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.afterAll img {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  top: 120px;
+}
+
+.afterAllbox1 {
+  width: fit-content;
+  display: flex;
+  gap: 40px;
+  padding: 30px 0 30px 0;
+}
+
+.otherthings {
+  width: fit-content;
+  height: 40px;
+  padding: 30px 0 30px 0;
+
+  float: right;
+}
+
+.otherthings h3 {
+  font-size: small;
+  display: inline-block;
+  margin: 10px;
+  color: aqua;
+}
+
+.otherthings h3 + h3 {
+  color: black;
+}
+
+.otherthings p {
+  margin: 5px 0 0 10px;
+  color: #bbbbbb;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8d2343d8e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="substyle.css" rel="stylesheet" />
+    <title>리베하얀</title>
+  </head>
+  <body>
+<!--modal window-->
+    <div class="black-bg" id="blackbg">
+        <div class="white-bg">
+            <h4>아이디를 입력 해주세요</h4>
+            <button class="알림창" id="아이디알림창버튼">닫기</button>
+        </div>
+        <div class="white-bg">
+          <h4>비밀번호를 입력 해주세요</h4>
+            <button class="알림창" id="비번알림창버튼">닫기</button>
+        </div>
+            
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="visual">
+      <header>
+        <h1>
+          <a href="index.html">
+           <img class="logo" src="img/sublogo1.png"> <span class="hide"
+              >REEBEHAYAN</span
+            ></a
+          >
+        </h1>
+        <h2 class="hide"></h2>
+        <nav class="gnb">
+          <ul class="gnb-ul">
+            <li><a href="">계좌개설</a></li>
+            <li><a href="">상품안내</a></li>
+            <li><a href="subII.html">리서치</a></li>
+            <li><a href="">투자정보</a></li>
+            <li><a href="">고객지원</a></li>
+          </ul>
+        </nav>
+        <h2 class="hide"></h2>
+        <nav class="util">
+          <li><a href="sub.html ">로그인</a></li>
+          <li><a href="">회원가입</a></li>
+          <li><a href="">공인인증센터</a></li>
+          <li><a href="">원격지원</a></li>
+          <li><a href="">회사소개</a></li>
+          <li><a href="">EN</a></li>
+        </nav>
+        <div class="allMenu">
+          <a href=""><span class="hide">마이페이지</span></a>
+          <a href="#"
+            ><i class="fa-regular fa-user fa-xl" style="color: #060606"></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-solid fa-magnifying-glass fa-xl"
+              style="color:#060606"
+            ></i
+          ></a>
+          <a href="#"
+            ><i class="fa-solid fa-bars fa-xl" style="color: #060606"></i
+          ></a>
+          <button class="btn1">전체메뉴</button>
+        </div>
+        
+      </header>
+    </section>
+    <!--section-->
+    <!--sectionII-->
+    <section class="sectionII">
+        <div class="sectionIIContents">
+            <nav class="sectionIIbar">
+                <span>홈</span>
+                <i class="fa-solid fa-angle-right fa-small" style="color: #52f9ff"></i>
+                <span>로그인/회원가입</span>
+                <i class="fa-solid fa-angle-right fa-small" style="color: #52f9ff"></i>
+                <span>로그인</span>
+            </nav>
+            <h2>로그인</h2>
+            <div class="logINli">
+                <button id="모의고객버튼"  onclick="모의고객()">모의고객</button>
+                <button id="계좌고객버튼"  onclick="계좌고객()">계좌고객</button>
+            </div>
+        </div>
+    </section>
+    <!--sectionIII-->
+    <section class="sectionIII">
+
+        <div class="sectionIIIConntents" id="계좌고객창">
+            <input type="text" class="IDPW" id="id"><form></form>
+            <input type="text" class="IDPW" id="pw"><form></form>
+            <input type="checkbox"/><span>ID 저장</span>
+            <button id="로그인버튼">로그인</button>
+
+                <div class="accountGuide" id="아이디찿기">
+                    <span>계좌고객 ID 찾기 | 접속 비밀번호 변경 | 비대면계좌개설</span>
+                     
+                </div>
+                
+
+
+    </section>
+
+    <!--sectionIV-->
+    <section class="sectionIV">
+        <div class="sectionIVcontents">
+            <h3>유의사항</h3>
+            <div class="Line"></div>
+            <li>
+                모의고객이란?<br>
+                모의거래를 신청한 고객으로 실거래 계좌가 없어도 가입이 가능합니다.
+            </li>
+            <li>
+                계좌고객이란?<br>
+                리베선물 실거래 계좌를 보유한 고객입니다.
+            </li>
+            <li>
+                비밀번호 5회 이상 오류로 아이디가 잠기 경우 비밀번호 변경 후 접속이 가능합니다.
+            </li>
+        </div>
+       
+    </section>
+
+    <section class="sectionVIII">
+     
+        <h2>국내선물/해외선물/FX(개인) 02-1234-5678(24시간)</h2>
+      </section>
+    <!--footer-->
+    <footer class="footer">
+        <div class="footerContent">
+          <div class="footer-box1">
+            <span> 외환/fx(일반법인) <strong>02-1243-5678</strong> </span>
+            <span> 외환/fx(금융법인) <strong>02-1243-5678</strong> </span>
+            <span> 중국/원자재/LME <strong>02-4567-8976</strong> </span>
+            <span> 리베증권 1234-5678 <strong>02-5889-7894</strong> </span>
+          </div>
+        </div>
+        
+        <div class="afterAll">
+            <img src="img/SVG/대지 1.svg">
+  
+            <div class="afterAllbox1">
+              <h3>회사소개</h3>
+              <h3>윤리경영</h3>
+              <h3>전자민원접수</h3>
+              <h3>약관 및 위험고지</h3>
+              <h3>공인인증센터</h3>
+              <h3>다운로드센터</h3>
+            </div>    
+            
+            <div class="otherthings">
+              <h3 class="b">개인정보처리방침</h3>
+              <h3>비상시주문방법</h3>
+              <h3>고객유의사항</h3>
+              <h3>대표이사 리베하얀</h3>
+              <h3>서울시 강서구 서초대로 66길</h3>
+              <h3>사업자 등록번호 123-45-67890</h3>
+              <p>COPYRIGHT(C) 2024 BY REBEHAYAN.ALL RIGHTS RESERVED.</p>
+            </div>
+                    
+            </div>         
+        </div>
+  
+      </footer>
+
+
+      <script>
+
+     
+
+
+
+       
+//아이디 비번창 공백시 알림
+document.getElementById('로그인버튼').addEventListener('click',function(){if
+(document.getElementById('id').value == ''){alert('아이디를 입력해 주세요')} 
+});
+
+
+document.getElementById('로그인버튼').addEventListener('click',function(){
+  if(document.getElementById('pw').value == ''){alert('비밀번호를 입력해 주세요')}
+});
+
+
+
+
+
+
+
+
+//계좌고객 모의고객 변경버튼   
+         function 계좌고객(){
+          document.getElementsByClassName('sectionIIIConntents').innerHTML = '계좌고객';
+          document.getElementById('아이디찿기').innerHTML = '계좌고객 ID 찿기  |  접속 비밀번호 변경  |  비대면계좌개설'; }
+    
+
+        function 모의고객(){
+          document.getElementsByClassName('sectionIIIConntents').innerHTML = '모의고객';
+          document.getElementById('아이디찿기').innerHTML = '모의고객 ID 찿기  |  접속 비밀번호 변경  |  비대면계좌개설' ;    
+            }
+
+
+      
+    
+
+      </script>
+
+
+
+
+
+  </body>
+</html>
+
+
