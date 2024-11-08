@@ -21,8 +21,7 @@ a {
 }
 
 .visual {
-  min-width: 2560px;
-  max-width: 100%;
+  width: 100vw;
   min-height: 435px;
   background: linear-gradient(to right, #5d11db, #6d00c9);
   color: white;
@@ -40,8 +39,7 @@ a {
 header {
   position: absolute;
   left: 50%;
-  min-width: 1200px;
-  max-width: 100%;
+  width: 1200px;
   height: 430px;
   transform: translateX(-50%);
   color: white;
@@ -122,9 +120,8 @@ header .allMenu {
 
 /*sectionII*/
 .sectionII {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 120px;
+  width: 100vw;
+  height: 120px;
   background-color: #4407a7;
   color: white;
   position: relative;
@@ -133,7 +130,6 @@ header .allMenu {
 .sectionIIcontents {
   width: 1200px;
   height: 120px;
-
   position: relative;
   margin: 0 auto;
 }
@@ -199,8 +195,7 @@ header .allMenu {
 }
 /*공지사항*/
 .notification {
-  min-width: 2560px;
-  max-width: 100%;
+  width: 100vw;
   min-height: 85px;
 }
 
@@ -233,8 +228,7 @@ header .allMenu {
 
 /*sectionIII*/
 .sectionIII {
-  min-width: 2560px;
-  max-width: 100%;
+  width: 100vw;
   min-height: 550px;
   background-color: #ecf1f5;
   align-content: center;
@@ -304,8 +298,7 @@ header .allMenu {
 
 /*sectionIV*/
 .sectionIV {
-  min-width: 2560px;
-  max-width: 100%;
+  width: 100vw;
   min-height: 550px;
   background-color: white;
   position: relative;
@@ -389,9 +382,8 @@ header .allMenu {
 
 /*sectionV*/
 .sectionV {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 250px;
+  width: 100vw;
+  height: 250px;
   background-color: #f4f4f4;
   position: relative;
 }
@@ -423,17 +415,15 @@ header .allMenu {
 
 /*sectionVI*/
 .sectionVI {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 130px;
+  width: 100vw;
+  height: 130px;
   background-color: white;
 }
 
 /*sectionVII*/
 
 .sectionVII {
-  min-width: 2560px;
-  max-width: 100%;
+  width: 100vw;
   min-height: 130px;
   background-color: white;
   position: relative;
@@ -477,8 +467,7 @@ header .allMenu {
 
 /*sectionVIII*/
 .sectionVIII {
-  min-width: 2560px;
-  max-width: 100%;
+  width: 100vw;
   height: 72px;
   background-color: #0a1f55;
   color: rgb(0, 162, 255);
@@ -491,9 +480,8 @@ header .allMenu {
 }
 /*footer*/
 .footer {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 284px;
+  width: 100vw;
+  height: 284px;
   position: relative;
 }
 

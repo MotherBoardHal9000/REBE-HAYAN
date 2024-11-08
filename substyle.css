@@ -29,9 +29,8 @@ a {
 }
 
 .black-bg {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   background-color: rgb(39, 39, 39);
   opacity: 0.5;
   display: none;
@@ -41,9 +40,8 @@ a {
 }
 
 .visual {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 112px;
+  width: 100vw;
+  height: 112px;
   position: relative;
   box-shadow: 0px 2px 0px 0px rgb(224, 224, 224);
 }
@@ -51,10 +49,8 @@ a {
 header {
   position: absolute;
   left: 50%;
-  min-width: 1200px;
-  max-width: 100%;
+  width: 1200px;
   height: 112px;
-
   transform: translateX(-50%);
   color: black;
   z-index: 1;
@@ -125,15 +121,14 @@ header .allMenu {
 
 /*sectionII*/
 .sectionII {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 171px;
+  width: 100vw;
+  height: 171px;
   position: relative;
 }
 
 .sectionIIContents {
-  min-width: 1200px;
-  min-height: 170px;
+  width: 1200px;
+  height: 170px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -180,9 +175,8 @@ header .allMenu {
 
 /*sectionIII*/
 .sectionIII {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 500px;
+  width: 100vw;
+  height: 500px;
   background-color: #f4f4f4;
   position: relative;
 }
@@ -228,9 +222,8 @@ header .allMenu {
 
 /*sectionIV*/
 .sectionIV {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 320px;
+  width: 100vw;
+  height: 320px;
   background-color: white;
   position: relative;
 }
@@ -241,8 +234,8 @@ header .allMenu {
 }
 
 .sectionIVcontents {
-  min-width: 1200px;
-  min-height: 320px;
+  width: 1200px;
+  height: 320px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -261,8 +254,7 @@ header .allMenu {
 
 /*sectionVIII*/
 .sectionVIII {
-  min-width: 2560px;
-  max-width: 100%;
+  width: 100vw;
   height: 72px;
   background-color: #0a1f55;
   color: rgb(0, 162, 255);
@@ -275,9 +267,8 @@ header .allMenu {
 }
 /*footer*/
 .footer {
-  min-width: 2560px;
-  max-width: 100%;
-  min-height: 284px;
+  width: 100vw;
+  height: 284px;
   position: relative;
 }
 
